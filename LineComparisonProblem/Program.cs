@@ -11,7 +11,7 @@ namespace LineComparisonProblem
         
         public static void Main(string[] args)
         {
-            //UC-2 Find two lines are equal or not
+            //UC-3 Find line is equal or greater or lesser
             //Take Values from User
             Console.WriteLine("Enter Values for a Line");
 
@@ -52,7 +52,15 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("Two Lines are Eqaul");
             }
-            else 
+            else if (Length1>Length2)
+            {
+                Console.WriteLine("Line 1 is greater than Line 2");
+            }
+            else if (Length2 > Length1)
+            {
+                Console.WriteLine("Line 2 is greater than Line 1");
+            }
+            else if(Length1 != Length2)
             {
                 Console.WriteLine("Two Lines are not Eqaul");
             }
