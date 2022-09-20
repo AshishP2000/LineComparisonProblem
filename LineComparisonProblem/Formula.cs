@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace LineComparisonProblem
 {
-    public class Program
+    public class Formula:Line
     {
-
-        public static void Main(string[] args)
+        public static void FormulaLine()
         {
-            //UC-4 Use Oops Concepts
-
-            Formula.EnterValue();
-            Console.ReadLine();
+            
         }
     }
 }
